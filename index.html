@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+    </script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="light-theme.css" id="theme-link">
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; 
+    margin-top: 50%;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="main">
+
+    <div class="todo">
+    TODO
+    <button onclick="myFunction()" class="btn-toggle"><img src="images/icon-sun.svg" class="moon" width="50px" height="50px" alt=""></button>
+    </div>
+
+    <div class="addlist">
+      <input type="text" placeholder="Create a new todo..." class="addnew" id="addnew">
+      <button id="myBtn" style="display: none;" onclick="alert('added but not working');">add</button>
+    </div>
+
+    <div class="mainlist" id="mainlist">
+
+    </div>
+
+    <div class="nav">
+
+      <div class="itemcount">
+        0 Items left
+      </div>
+
+      <div class="centernav">
+        <a href="">All</a>
+        <a href="">Active</a>
+        <a href="">Completed</a>
+      </div>
+
+      <div class="clear">
+        <button style="background: transparent; border: none 0; color: hsl(234, 11%, 52%);">Clear Completed</button>
+      </div>
+
+    </div>
+    <div class="sm-nav">
+
+
+      <div class="smcenternav">
+        <a href="">All</a>
+        <a href="">Active</a>
+        <a href="">Completed</a>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <script type="text/javascript" src="app.js"></script>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abel-Jo</a>.
+  </div>
+
+</body>
+</html>
