@@ -22,12 +22,12 @@ const icon = document.querySelector("#moon");
 
 
 btn.addEventListener("click", function() {
-  if (icon.getAttribute("src") == "images/icon-sun.svg") {
-    icon.src = "images/icon-moon.svg";
+  if (icon.getAttribute("src") == "https://i.ibb.co/RCrSZ3G/icon-sun.png") {
+    icon.src = "https://i.ibb.co/WVh9Xsx/icon-moon.png";
   }
-   else if (icon.getAttribute("src") == "images/icon-moon.svg")
+   else if (icon.getAttribute("src") == "https://i.ibb.co/WVh9Xsx/icon-moon.png")
   {
-    icon.src = "images/icon-sun.svg";
+    icon.src = "https://i.ibb.co/RCrSZ3G/icon-sun.png";
   }
 });
 
