@@ -211,7 +211,7 @@ a:active { text-decoration: none; }
 
 .btn-toggle{
   
-    align-self: flex-end;
+    margin-left: 90%;
     background: transparent;
     border: none;
 }
