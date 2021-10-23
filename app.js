@@ -18,9 +18,18 @@ btn.addEventListener("click", function() {
 });
 
 
-//add when preesed enter
+const icon = document.querySelector("#moon");
 
 
+btn.addEventListener("click", function() {
+  if (icon.getAttribute("src") == "images/icon-sun.svg") {
+    icon.src = "images/icon-moon.svg";
+  }
+   else if (icon.getAttribute("src") == "images/icon-moon.svg")
+  {
+    icon.src = "images/icon-sun.svg";
+  }
+});
 
 
 
